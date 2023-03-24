@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <iframe src="header.html" frameborder="0" width="1300px"></iframe>
+    <h2>Novo Usúario</h2>
+    <hr>
+    <form>
+        <label for="pnome" title="nome">Nome:</label> <br> <br>
+        <input type="text" name="nome" id="pnome" placeholder="Informe o nome..." size="120"><br><br>
+        <label for="pcpf" title="cpf">CPF:</label>
+        <input type="number" placeholder="Informe o CPF..." size="55">
+        <label for="pendereco" title="endereco">Endereço:</label>
+        <input type="text" placeholder="Informe o endereço..." size="55">
+        <label for="pnivel" title="nivel">Nível:</label>
+        <SELECT NAME="nivel">
+            <OPTION VALUE="casa"> Casa
+            <OPTION VALUE="ap"> Apartamento
+            <OPTION VALUE="sitio"> Sítio
+        </SELECT> <br> <br>
+        <label for="pmail" title="Mail">E-mail:</label>
+        <input type="text" name="e-mail" id="pmail" placeholder="Informe o E-mail...">
+        <label for="psenha" title="Senha">Senha:</label>
+        <input type="password" name="senha" id="psenha" placeholder="Informe a Senha...">
+        <label for="pstatus" title="status">Status:</label>
+        <SELECT NAME="status">
+            <OPTION VALUE="at"> Ativo
+            <OPTION VALUE="inat"> Inativo
+        </SELECT> <br> <br>
+        <hr />
+
+
+        <br />
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Cancelar">
+    </form>
+</body>
+
+</html>
